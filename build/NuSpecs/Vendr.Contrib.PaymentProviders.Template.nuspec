@@ -16,14 +16,14 @@
         <tags>umbraco ecommerce vendr</tags>
         <dependencies>
             <group targetFramework="net472">
-                <dependency id="Vendr.Core.Web" version="[0.1.0,1.999999)" />
+                <dependency id="Vendr.Core.Web" version="[1.0.0,1.999999)" />
                 <!--<dependency id="UmbracoCms.Core" version="[$MinUmbracoVersion$]" />-->
             </group>
         </dependencies>
     </metadata>
     <files>
         <!-- nuget files -->
-        <file src="$SrcDir$\assets\logo-64.png" target="images\icon.png" />
+        <file src="$SrcDir$\assets\logo-128.png" target="images\icon.png" />
         
         <!-- libs -->
         <file src="$SrcDir$\bin\Vendr.Contrib.PaymentProviders.Template.dll" target="lib\net472\Vendr.Contrib.PaymentProviders.Template.dll" />
