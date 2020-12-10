@@ -49,7 +49,7 @@ namespace Vendr.Contrib.PaymentProviders.Template
             {
                 TransactionInfo = new TransactionInfo
                 {
-                    AmountAuthorized = order.TotalPrice.Value.WithTax,
+                    AmountAuthorized = order.TransactionAmount.Value,
                     TransactionFee = 0m,
                     TransactionId = Guid.NewGuid().ToString("N"),
                     PaymentStatus = PaymentStatus.Authorized
